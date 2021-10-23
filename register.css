@@ -1,0 +1,158 @@
+*{
+    font-family: "Poppins",sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    width: auto;
+}
+
+header{
+    background-color: #314648;
+}
+
+header li {
+    color: #8CB2BB;
+}
+
+main .btn {
+    background-color: #EFEAE5;
+    color: #314648;
+    border-color: #314648;
+}
+
+main .btn:hover {
+    background-color: #EFEAE5;
+    opacity: 0.8;
+    color: #314648;
+    border-color: #314648;
+}
+
+main{
+    display: block;
+}
+
+.container{
+    width: 100%;
+    position: relative;
+}
+
+footer{
+    background-color: #314648;
+}
+
+footer h5 {
+    color:#EFEAE5 ;
+    padding-top: 30px;
+}
+
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+h2 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 2px;
+    cursor: text;
+    text-align: center;
+    color: #314648;
+}
+
+.down-content a {
+    font-weight: bold;
+}
+
+.down-content {
+    display: none;
+    position: absolute;
+}
+
+.down-content ul {
+    display: block !important;
+    list-style: none;
+    background-color: #3e5355;
+    border-radius: 12.5px;
+    padding: 0.5em 0 0.5em 0;
+    margin: 1em 0 0 -1em;
+    min-width: 150px;
+}
+
+.down-content ul li a {
+    padding: 0.5em 0 0.5em 1em;
+    font-size: 0.875rem;
+    width: 150px;
+    margin-right: 0;
+}
+
+.down-content ul li:hover {
+    background-color: #314648;
+    text-decoration: underline;
+}
+
+.down-content ul li:hover a {
+    opacity: 1;
+}
+
+.dropdown:hover .down-content {
+    display: block;
+}
+
+/* buat register */ 
+
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background:white;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: white;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 2px solid #314648;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #EFEAE5;
+  text-align: center;
+}

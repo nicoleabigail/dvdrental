@@ -1,0 +1,101 @@
+*{
+    font-family: "Poppins",sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    width: auto;
+}
+
+header{
+    background-color: #314648;
+}
+
+header li {
+    color: #8CB2BB;
+}
+
+main .btn {
+    background-color: #EFEAE5;
+    color: #314648;
+    border-color: #314648;
+}
+
+main .btn:hover {
+    background-color: #EFEAE5;
+    opacity: 0.8;
+    color: #314648;
+    border-color: #314648;
+}
+
+main{
+    display: block;
+}
+
+.container{
+    width: 100%;
+    position: relative;
+}
+
+footer{
+    background-color: #314648;
+}
+
+footer h5 {
+    color:#EFEAE5 ;
+    padding-top: 30px;
+}
+
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#aboutus-right h3 {
+    align-items: center;
+    padding-top: 200px;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 2px;
+    cursor: text;
+    text-align: center;
+    color: #314648;
+}
+
+.down-content {
+    display: none;
+    position: absolute;
+}
+
+.down-content ul {
+    display: block !important;
+    list-style: none;
+    background-color: #3e5355;
+    border-radius: 12.5px;
+    padding: 0.5em 0 0.5em 0;
+    margin: 1em 0 0 -1em;
+    min-width: 150px;
+}
+
+.down-content ul li a {
+    padding: 0.5em 0 0.5em 1em;
+    font-size: 0.875rem;
+    width: 150px;
+    margin-right: 0;
+}
+
+.down-content ul li:hover {
+    background-color: #314648;
+    text-decoration: underline;
+}
+
+.down-content ul li:hover a {
+    opacity: 1;
+}
+
+.dropdown:hover .down-content {
+    display: block;
+}

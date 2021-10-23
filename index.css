@@ -1,0 +1,203 @@
+*{
+    font-family: "Poppins",sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    width: auto;
+}
+
+header{
+    background-color: #314648;
+}
+
+header li {
+    color: #8CB2BB;
+}
+
+main .btn {
+    background-color: #EFEAE5;
+    color: #314648;
+    border-color: #314648;
+}
+
+main .btn:hover {
+    background-color: #EFEAE5;
+    opacity: 0.8;
+    color: #314648;
+    border-color: #314648;
+}
+
+main{
+    display: block;
+}
+
+.container{
+    width: 100%;
+    position: relative;
+}
+
+#top-content{
+    /* background-color: yellow; */
+    width: 100%;
+    min-height: 750px;
+    background-image: url("Assets/dvd\ rental.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+#about-content {
+    background: linear-gradient(to right, #314648 50%, #EFEAE5 50%);
+    height: 100%;
+    padding-bottom: 100px;
+}
+
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+#left-content img {
+    padding: 30px 30px 50px 30px;
+}
+
+#left-git img {
+    padding: 30px 30px 50px 30px;
+}
+
+#right-social img {
+    padding: 30px 30px 50px 30px;
+}
+
+#right-content h3 {
+    align-items: center;
+    padding-top: 200px;
+}
+
+#left-social h3 {
+    padding-top: 200px;
+}
+
+#right-git h3 {
+    padding-top: 150px;
+}
+
+#social-content {
+    background: linear-gradient(to left, #314648 50%, #EFEAE5 50%);
+    height: 100%;
+    padding-bottom: 100px;
+}
+
+#testi-content {
+    background-color:#314648 ;
+    height: 100%;
+    padding-bottom: 100px;
+}
+
+#git-content {
+    background-color:#EFEAE5;
+    height: 100%;
+    padding-bottom: 100px;
+}
+
+footer{
+    background-color: #314648;
+}
+
+footer h5 {
+    color:#EFEAE5 ;
+    padding-top: 30px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.testi .testi-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #EFEAE5;
+    position: relative;
+    margin-left: 10px;
+  }
+
+  .testi .testi-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color:#CD8686;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  .testi .testi-item:last-child {
+    padding-bottom: 0;
+    margin-left: 10px;
+  }
+
+  .testi .testi-items {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    position: relative;
+    margin-left: 10px;
+  }
+
+  .testi .testi-items h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color:#CD8686;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  .testi .testi-items:last-child {
+    padding-bottom: 0;
+    margin-left: 10px;
+  }
+
+  .down-content {
+    display: none;
+    position: absolute;
+}
+
+.down-content ul {
+    display: block !important;
+    list-style: none;
+    background-color: #3e5355;
+    border-radius: 12.5px;
+    padding: 0.5em 0 0.5em 0;
+    margin: 1em 0 0 -1em;
+    min-width: 150px;
+}
+
+.down-content ul li a {
+    padding: 0.5em 0 0.5em 1em;
+    font-size: 0.875rem;
+    width: 150px;
+    margin-right: 0;
+}
+
+.down-content ul li:hover {
+    background-color: #314648;
+    text-decoration: underline;
+}
+
+.down-content ul li:hover a {
+    opacity: 1;
+}
+
+.dropdown:hover .down-content {
+    display: block;
+}
+.down-content a {
+    font-weight: bold;
+}
